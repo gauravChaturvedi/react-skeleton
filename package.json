@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src",
-    "test": "mocha --require ignore-styles -w tests/setup.js tests/**/*-test.js"
+    "test": "mocha --require ignore-styles -w tests/setup.js tests/**/*-test.js",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
