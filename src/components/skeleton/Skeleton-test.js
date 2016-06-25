@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
 import { expect } from 'chai';
-import Skeleton from '../../../src/components/skeleton/Skeleton.js';
+import Skeleton from './Skeleton.js';
 
 describe('<Skeleton />', () => {
 
