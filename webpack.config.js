@@ -9,7 +9,7 @@ module.exports = {
     './src/index'
   ],
   output: {
-    path: './',
+    path: '/',
     filename: 'bundle.js'
   },
   plugins: [
